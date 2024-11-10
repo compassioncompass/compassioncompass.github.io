@@ -32,6 +32,32 @@ h2 {
   width: 60%;
 }
 
+.actionsection {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.actionsubsection {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+}
+
+.actioncards {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  height: 150px;
+  border: 1px solid #a9bcd0;
+  border-radius: 5px;
+  padding: 4px;
+}
+
 .headersection {
   display: flex;
   justify-content: center;
@@ -40,10 +66,5 @@ h2 {
 }
 
 .section {
-  background-color: #a9bcd0;
-  padding: 8px;
-}
-
-.subsection {
-  padding: 8px;
+  padding: 12px;
 }
