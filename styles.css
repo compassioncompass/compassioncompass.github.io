@@ -91,7 +91,7 @@ h3 {
   align-items: start;
 }
 
-.right_scroll {
+.rightscroll {
   width: 50%;
   overflow-y: auto;
   overflow-x: hidden;
