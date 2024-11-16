@@ -6,21 +6,26 @@ body {
   padding: 0;
   background-color: #d8dbe2;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+  overflow: hidden;
 }
 
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
-  color: #375372;
-  font-size: 34px;
-  letter-spacing: -2px;
+  color: #000000;
+  font-size: 62px;
+  letter-spacing: -1px;
   line-height: 0.8;
+  text-align: left;
+  margin: 0;
+  padding: 0;
 }
 
 h2 {
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
-  color: #375372;
+  color: #23364d;
 }
 h3 {
   margin: 0;
@@ -29,16 +34,14 @@ h3 {
 
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   flex-direction: column;
-  align-items: center;
-  margin: auto;
-  padding: 16px;
-  color: #1b1b1e;
+  align-items: start;
   font: Arial, sans-serif;
   text-wrap: wrap;
-  text-align: center;
-  width: 60%;
+  margin: auto;
+  padding: 16px;
+  height: 200px;
 }
 
 .actionsection {
@@ -67,13 +70,24 @@ h3 {
   padding: 6px;
 }
 
-.headersection {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
 .section {
   padding: 12px;
+}
+
+.left {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: start;
+  width: 50%;
+  background-color: #2e8b57;
+}
+
+.right {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: start;
+  width: 50%;
+  overflow: auto;
 }
