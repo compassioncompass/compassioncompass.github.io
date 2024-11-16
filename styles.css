@@ -61,7 +61,7 @@ h3 {
   flex-direction: column;
   align-items: center;
   width: 30%;
-  height: 130px;
+  height: 150px;
   border: 1px solid #a9bcd0;
   border-radius: 5px;
   padding: 6px;
@@ -94,4 +94,18 @@ h3 {
   overflow-y: auto;
   overflow-x: hidden;
   height: 100vh;
+}
+
+.circle {
+  border: #000000 1px solid;
+  height: 100px;
+  width: 100px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #2e8b57;
+  margin: 8px;
+  vertical-align: top;
+  text-align: center;
 }
