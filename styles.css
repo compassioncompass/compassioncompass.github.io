@@ -1,8 +1,6 @@
 body {
   width: 100%;
   margin: auto;
-  padding-left: 32px;
-  padding-right: 32px;
   padding: 0;
   background-color: #d8dbe2;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -39,7 +37,7 @@ h3 {
   font: Arial, sans-serif;
   text-wrap: wrap;
   margin: auto;
-  padding: 16px;
+  padding: 24px;
   height: 200px;
 }
 
