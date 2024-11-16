@@ -1,6 +1,8 @@
 body {
   width: 100%;
   margin: 0;
+  padding-left: 32px;
+  padding-right: 32px;
   padding: 0;
   background-color: #d8dbe2;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -22,6 +24,7 @@ h2 {
 }
 h3 {
   margin: 0;
+  font-weight: 200;
 }
 
 .header {
